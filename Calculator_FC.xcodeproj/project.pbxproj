@@ -13,6 +13,7 @@
 		6B2BCFAD2884290300B24948 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B2BCFAB2884290300B24948 /* Main.storyboard */; };
 		6B2BCFAF2884290400B24948 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B2BCFAE2884290400B24948 /* Assets.xcassets */; };
 		6B2BCFB22884290400B24948 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B2BCFB02884290400B24948 /* LaunchScreen.storyboard */; };
+		6B2BCFBA2884322100B24948 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2BCFB92884322100B24948 /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6B2BCFAE2884290400B24948 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B2BCFB12884290400B24948 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B2BCFB32884290400B24948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B2BCFB92884322100B24948 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				6B2BCFAE2884290400B24948 /* Assets.xcassets */,
 				6B2BCFB02884290400B24948 /* LaunchScreen.storyboard */,
 				6B2BCFB32884290400B24948 /* Info.plist */,
+				6B2BCFB92884322100B24948 /* RoundButton.swift */,
 			);
 			path = Calculator_FC;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B2BCFBA2884322100B24948 /* RoundButton.swift in Sources */,
 				6B2BCFAA2884290300B24948 /* ViewController.swift in Sources */,
 				6B2BCFA62884290300B24948 /* AppDelegate.swift in Sources */,
 				6B2BCFA82884290300B24948 /* SceneDelegate.swift in Sources */,
